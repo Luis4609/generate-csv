@@ -1,0 +1,581 @@
+DevTools failed to load source map: Could not load content for chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/browser-polyfill.js.map: System error: net::ERR_FILE_NOT_FOUND
+Endpoint: http://localhost:8082/arcano-cca/perform_login?username=rdiaz@arcanopartners.com&password=Arcano2021*
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/security/isAuthenticated?=
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/perform_logout?=
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/getInfo?=
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts?pageNo=0&pageSize=10
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts/BasicInformation
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts/AdvancedSearch?literal=ARCANO&pageNo=0&pageSize=10&sortBy=id
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/documentos/16046
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/documentos/categorias
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/estrategiasCliente
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/posicionIntegrada
+Request body: {
+    "accounts":[],
+}
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/posicionesUsuario
+Request body: {
+    "endDate" : ""
+}
+​ Endpoint: http://192.168.1.41:8082/arcano-cca/api/v1/userApi/detallePosicion
+Request body: {
+    "accounts" : [],
+    "listProductIdStrategy": [],
+    "searchDate": "",
+    "pageNo": 0,
+    "pageSize": 28,
+    "sortBy": ""
+}
+​ Endpoint: http://localhost:8082/arcano-cca/api/user/createContact
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/user/getUserData
+Request body: {
+}
+​ Endpoint: http://localhost:8082/arcano-cca/api/user/updateInfo
+Request body: {
+    "id":"6",
+    "password":"optimissa",
+    "oldPassword" : "optimissa",
+    "phone" : "(0034) 609 112 533",
+    "email" : "coro.sarria@gmail.com"
+}
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/documentos
+Request body: {
+    "accounts": [],
+    "initDate": "",
+    "endDate": "",
+    "literal": "",
+    "tiposDocumentos": [],
+    "onlyUnread": true,
+    "pageNo": 0,
+    "pageSize": 500,
+    "sortBy": "date"
+}
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/documentos/documentsUnread
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/documentos/updateReadingStatus?docLeidoId=50
+Request body: undefined
+​ Endpoint: undefined
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/perform_login
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/perform_logout
+Request body: undefined
+​ Endpoint: http://localhost:8082/arcano-cca/security/isAuthenticated
+Request body: {}
+Endpoint: http://localhost:8082/arcano-cca/product_accounts/accounts
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/product_accounts/rolesApi
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/users/api/usersManagement
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/getInfo
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts/AdvancedSearch?dateIni=2020-03-12&dateFin=2020-03-15
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts/BasicInformation
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/Accounts/BasicSearch?literal=Arcano Global Opportunity Fund II, FCR
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/api/v1/userApi/AccountsAnalizeDetallePosicion?accounts=1,2,3
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/products
+Request body: {
+	"date":"2020-03-04"
+}
+Endpoint: http://localhost:8082/arcano-cca/product_accounts/accounts_paged?search=&pageNo=1&pageSize=15
+Request body: {
+	"productId": 32, 
+	"date": "2020-03-23"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/accounts
+Request body: {
+	"name":"JOSE"
+}
+Endpoint: http://localhost:8082/arcano-cca/products/latest
+Request body: {}
+Endpoint: http://localhost:8082/arcano-cca/accounts/new-all
+Request body: {}
+Endpoint: http://localhost:8082/arcano-cca/accounts/new-accounts?search=MANU&pageNo=0&pageSize=15
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/capital-calls/calculateTotals
+Request body: {
+	"productId":32,
+	"committedPercentage":9.87,
+	"applySubscriptionFee":true,
+	"adjustCapitalPendingPayment":false,
+	"subscriptionValue": 987,
+	"date":"2020-03-06",
+	"participantAccounts": [
+        {
+            "accountId": "002900098180ab59cac0722f32b0c94d86cabedf8001",
+            "accountName": "DIEGO GARNICA LOZANO"
+        },
+        {
+            "accountId": "00320011300dbaf5c9a245eefe2ee56bd51473bf7001",
+            "accountName": "ION ZULUETA ZABALETA",
+            "paf": 100
+        }
+    ]
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/capital-calls/saveData
+Request body: {
+    "capitalCallId": 1585849601602
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/distributions/calculateTotals
+Request body: {
+	"productId":32,
+	"redemptionValue":100,
+	"distributionTotalAmount":1000000,
+	"averageCost":10,
+	"recallable":true,
+	"date":"2020-02-06",
+	"participantAccounts": [
+        {
+            "accountId": "002900098180ab59cac0722f32b0c94d86cabedf8001",
+            "accountName": "DIEGO GARNICA LOZANO"
+        },
+        {
+            "accountId": "00320011300dbaf5c9a245eefe2ee56bd51473bf7001",
+            "accountName": "ION ZULUETA ZABALETA"
+        }
+    ]
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/distributions/saveData
+Request body: {
+	"distributionId":1583405484319
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/capital_returns/calculateTotals
+Request body: {
+   "productId":"56",
+   "totalReturnAmount":"200",
+   "recallable":false,
+   "date":"2021-04-12",
+   "participantAccounts":[
+      {
+         "accountName":"CAJA LABORAL POPULAR, SOC .COOP. DE CREDITO",
+         "accountId":"4709086ef4c7c58431d03ae3a8768ee1",
+         "paf":0
+      }
+   ]
+}
+Endpoint: http://localhost:8082/arcano-cca/capital_returns/calculateTotals
+Request body: {
+   "productId":"56",
+   "totalReturnAmount":"1000",
+   "recallable":true,
+   "totalDividendAmount":"20000",
+   "date":"2021-03-29",
+   "participantAccounts":[
+      {
+         "accountName":"JOSE LUIS MANZANARES BLANCH",
+         "accountId":"17d075d4e2ba7a42fb6cf6a17e57d74e",
+         "paf":0
+      }
+   ]
+}
+Endpoint: http://localhost:8082/arcano-cca/capital_returns/saveData
+Request body: {
+	"capitalReturnId":1618849584310,
+	"dividendReturnId": 1618849584477
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/overpayment_returns/calculateTotals
+Request body: {
+	"productId":32,
+	"totalOverpaymentReturn":5000000,
+	"returnValue": 1234,
+	"date":"2020-02-06",
+	"participantAccounts": [
+        {
+            "accountId": "002900098180ab59cac0722f32b0c94d86cabedf8001",
+            "accountName": "DIEGO GARNICA LOZANO"
+        },
+        {
+            "accountId": "00320011300dbaf5c9a245eefe2ee56bd51473bf7001",
+            "accountName": "ION ZULUETA ZABALETA"
+        }
+    ]
+}
+
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/overpayment_returns/saveData
+Request body: {
+	"overpaymentReturnId": 1585317064193
+}
+
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/participating_positions/generateRegisters
+Request body: {
+	"productAriaId":1,
+	"date":"2020-02-24",
+	"participations":123,
+	"committedAmount":80000,
+	"payoutAmount":5000,
+	"pendingAmount":700,
+	"accounts": [
+        {
+            "accountId": "002900098180ab59cac0722f32b0c94d86cabedf8001",
+            "accountName": "DIEGO GARNICA LOZANO"
+        },
+        {
+            "accountId": "00320011300dbaf5c9a245eefe2ee56bd51473bf7001",
+            "accountName": "ION ZULUETA ZABALETA"
+        }
+    ]
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/participating_positions/saveData
+Request body: {
+	"portfolioId": 1583494175204
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/participating_positions/obtainInfo
+Request body: {
+	"productAriaId":32,
+	"date":"2020-02-06",
+	"accountId": "003200113b43d23be8501ae90111110aa6e0140b4001"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/participating_positions/updatePositions
+Request body: {}
+Endpoint: http://localhost:8082/arcano-cca/participating_positions/transfer/calculateBalances
+Request body: {
+    "positionId": 195102,
+    "transferDate": "2021-03-23",
+    "targetAccounts": [
+        {
+            "accountId": "a19d508874655a86f599a58a1341b0bc",
+            "accountName": "3-GUTINVER, S.L.",
+            "transferPercentage": 10
+        },
+        {
+            "accountId": "7a0f9a0e9ff6867d0edc614cf8f0c76f",
+            "accountName": "36ERRES ASSETS S.L.U.",
+            "transferPercentage": 90
+        }
+    ],
+    "maxPercentage" : 50
+}
+Endpoint: http://localhost:8082/arcano-cca/participating_positions/transfer/saveData
+Request body: {
+	"transferId": 1627565793249
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/product_accounts/targets
+Request body: {
+	"sourcePositionId": 38, 
+	"date": "2020-03-23"
+}
+Endpoint: http://localhost:8082/arcano-cca/participating_positions/last-updating-info
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/operationTypes
+Request body: {}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/categories
+Request body: {}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/recipientTypes
+Request body: {}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/states
+Request body: {}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/profiles
+Request body: {}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/catalogs/currencies
+Request body: {}
+Endpoint: http://localhost:8082/arcano-cca/catalogs/data-loaders
+Request body: 
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/operations/search
+Request body: {
+	"operationType":"CC",
+	"productAriaId": 32,
+	"endDate":"2020-03-01"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/operations/remove
+Request body: {
+	"operationType":"CC",
+	"operationId":181,
+	"detailId":808
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/documents/uploadDocuments
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/documents/uploadGenericDocument
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/documents/search
+Request body: {
+	
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/users/obtainInfo
+Request body: {
+	"username":"test"
+}
+Endpoint: http://localhost:8082/arcano-cca/users/getUsersName
+Request body: {
+	"username": "alfredo"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/users/update
+Request body: {
+    "username": "test",
+    "password": "Password10",
+    "description": "Usuario de prueba",
+    "profileId": 1,
+    "email": "test@optimissa.com",
+    "contactInfo": "José Echegaray 14, Las Rozas Parque Empresarial, 28232 · Madrid",
+    "status": true
+}
+
+Endpoint: http://localhost:8082/arcano-cca/users/create
+Request body: {
+"username": "optimissa.test",
+"password": "optimissa.test",
+"description": "Usuario web",
+"profileId": 1,
+"email": "pruebas@tribeca.com",
+"contactInfo": "N/A",
+"status": true
+}
+Endpoint: http://localhost:8082/arcano-cca/users/api/resendPassword
+Request body: {
+    "identifier": "00000001L"
+}
+Endpoint: http://localhost:8082/arcano-cca/users/api/create
+Request body: {
+    "username": "user.api.caso6",
+    "password": "user.api.caso6",
+    "description": "Usuario con dos fondos. Una cuenta de cada",
+    "profileId": 2,
+    "email": "user.api.caso5@optimissa.com",
+    "contactInfo": "José Echegaray 14,Las Rozas Parque Empresarial, 28232",
+    "status": true,
+    "typeRoleApi": "Interno Arcano",
+    "accounts" : ["1cf25e23779bcc20ecf2de45ad0f64a6","bb30ebea11da12e0ed3c20dd71aea165"]
+}
+Endpoint: http://localhost:8082/arcano-cca/users/api/update
+Request body: {
+    "username": "prueba.api",
+    "password": "prueba.api",
+    "description": "prueba.api desde Integracion ",
+    "profileId": 2,
+    "email": "prueba.api@optimissa.com",
+    "contactInfo": "José Echegaray 14,Las Rozas Parque Empresarial, 28232",
+    "status": true,
+    "typeRoleApi": "Interno Arcano",
+    "accounts" : ["1cf25e23779bcc20ecf2de45ad0f64a6"]
+}
+Endpoint: http://localhost:8082/arcano-cca/users/api/delete
+Request body: {
+	"username":"alejandro.api2"
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/fx
+Request body: {
+	"currencyId":1, 
+	"date":"2020-04-01"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/fx/create
+Request body: {
+	"date":"2020-04-01",
+	"currencyId":1,
+	"price": 22.05
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/fx/update
+Request body: {
+	"id":1,
+	"date":"2020-04-01",
+	"currencyId":1,
+	"price": 22
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/fx/delete
+Request body: {
+	"id":2
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/prices
+Request body: {
+	"productId":1, 
+	"date":"2020-04-03"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/prices/create
+Request body: {
+	"productId":1,
+	"date":"2020-04-01",
+	"price":25.06
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/prices/update
+Request body: {
+	"id":1,
+	"productId":1,
+	"date":"2020-04-01",
+	"price":25.99
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/prices/delete
+Request body: {
+	"id":2
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/product-prices
+Request body: {
+    "productId" : 12,
+    "date" : null,
+    "page" : 0
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/product-prices/create
+Request body: {
+	"productId":2,
+	"date":"2020-10-21",
+	"price":29.99,
+	"currencyId":978,
+	"fxPrice": 21.05
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/product-prices/update
+Request body: {
+	"id":42,
+	"productId":1,
+	"date":"2025-07-07",
+	"price":30,
+	"currencyId":978,
+	"fxPrice": 23
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/product-prices/delete
+Request body: {
+	"id":2
+}
+Endpoint: http://localhost:8082/arcano-cca/product-prices/prices_by_product
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/categorizations-products
+Request body: 
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/categorizations-products/create
+Request body: {
+	"productId":1,
+	"componentCategorizationName":"cc 1",
+	"categorizationName": "cat2"
+}
+Endpoint: http://localhost:8082/arcano-cca/categorizations/create
+Request body: {
+    "name":"pruebas insercion"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/categorizations-products/update
+Request body: {
+	"id":2,
+	"productId":1,
+	"componentCategorizationName":"cc 1",
+	"categorizationName": "cat2"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/categorizations-products/delete
+Request body: {
+	"id":3
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://192.168.1.78/arcano-cca/metrics
+Request body: 
+Endpoint: http://localhost:8082/arcano-cca/metrics-products
+Request body: 
+Endpoint: http://localhost:8082/arcano-cca/metrics-products/create
+Request body: {
+    "metricName": "API TEST"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/metrics-products/update
+Request body: {
+	"id":1,
+	"date":"2020-04-02",
+	"value": 123543.12,
+	"productId":1,
+	"metricName": "IRC"
+}
+Endpoint: http://optiportmx05.optimissa.into:8082/arcano-cca/metrics-products/delete
+Request body: {
+	"id":4
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/data-load
+Request body: {
+	"dataLoader":"ACCOUNTS",
+	"filePath":"C:\\app\\arcano-cca\\input\\Cuentas_2020_07_26.csv"
+}
+Endpoint: http://localhost:8082/arcano-cca/data-load/file
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/catalogs/data-loaders
+Request body: 
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/users/api/usersManagement
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/investor/notProcessed?identifier=00041156D
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/investor/update
+Request body: {
+        "identifier": "50012844B",
+        "name": "FERNANDO",
+        "lastname": "RODRIGUEZ",
+        "lastname2": "DE LA TORRE ",
+        "cellphone": "12345678910",
+        "email": "FERNANDO.RODRIGUEZ@TEST.com ",
+        "address": "DESCONOCIDA",
+        "locality": "MADRID",
+        "state": "MADRID",
+        "country": " ESPAÑA",
+        "postalCode": "28027",
+        "procesed": false
+    }
+Endpoint: undefined
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/compromiso/getProducts
+Request body: undefined
+Endpoint: http://localhost:8082/arcano-cca/compromiso/getAccounts?idProduct=33
+Request body: undefined
+Endpoint: http://192.168.102.161:8083/arcano-cca/compromiso/addCompromiso
+Request body: 
+{
+	"idProduct": 56,
+    "idCuenta": 224,
+    "totalCompromiso": 30000,
+    "fechaCompromiso": "2019-11-21" 
+}
+Endpoint: http://localhost:8082/arcano-cca/compromiso/deleteCompromiso
+Request body: 
+{"idProduct":56,"idCuenta":224,"totalCompromiso":10000,"fechaCompromiso":"2019-11-12"}
+
+Endpoint: http://localhost:8082/arcano-cca/compromiso/editCompromiso
+Request body: 
+{
+	"idProduct": 56,
+    "idCuenta": 224,
+    "totalCompromiso": 30000,
+    "fechaCompromiso": "2019-11-17"
+}
+Endpoint: undefined
+Request body: undefined
+Endpoint: undefined
+Request body: undefined
