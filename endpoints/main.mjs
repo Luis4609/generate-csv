@@ -2,7 +2,6 @@ import { collectionArcano } from "./json/Arcano Escenario Real.postman_collectio
 import { ccaArcano } from "./json/CCA Arcano.postman_collection.mjs";
 import { SMSArcanoCCA } from "./json/SMS API.postman_collection.mjs";
 
-
 const { items } = SMSArcanoCCA;
 // const { items } = ccaArcano;
 
@@ -31,22 +30,59 @@ function getEndpointList(items) {
   //   "Endpoint: " + request?.url?.raw + "\nRequest body: " + request?.body?.raw
   // );
 
+  console.log(request);
+
   console.log(arrayToCsv);
 
   if (request !== undefined) {
     const { method, url, body } = request;
     const { raw } = url;
+    let STATUS, RESPONSE
+    const URL = getQueryParams(request?.url?.raw)
+    if (request?.method === "GET") {
+      fetch(URL)
+        .then((response) => {
+          STATUS = response.status
+          return response.json()
+        })
+        .then(data => RESPONSE = data)
+        .catch(console.error);
+    } else {
+      fetch(URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(request?.body?.raw),
+      })
+        .then((response) => {
+          STATUS = response.status
+          return response.json()
+        })
+        .then(data => RESPONSE = data)
+        .catch(console.error);
+    }
 
     arrayToCsv?.push({
       METHOD: request?.method,
       URL: request?.url?.raw,
       REQUEST: request?.body?.raw?.trim().replace(/(\r\n|\n|\r)/gm, ""),
+      STATUS, 
+      RESPONSE
     });
 
     // console.log(method, raw);
   }
 
   return { name, request };
+}
+
+function getQueryParams(url, params) {
+  let URL = url;
+  if (params) {
+    URL += "?" + URLSearchParams(params);
+  }
+  return URL;
 }
 
 function arrayObjToCsv(ar) {
